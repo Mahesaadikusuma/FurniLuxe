@@ -109,6 +109,7 @@ p {
   font-family: "Poppins";
   font-size: 16px;
   opacity: 50%;
+  text-align: justify;
 }
 .mainContent .heading .button-Shop .btn-shop {
   background-color: #e58411;
@@ -118,6 +119,9 @@ p {
 }
 .mainContent .mySwiper {
   width: 100%;
+}
+.mainContent .mySwiper .swiper-wrapper .swiper-slide {
+  cursor: pointer;
 }
 .mainContent .mySwiper .swiper-wrapper .swiper-slide img {
   display: block;
@@ -131,9 +135,27 @@ p {
 }
 .mainContent .mySwiper .swiper-wrapper .secondImage img {
   border-radius: 10px;
-  width: 105px;
-  height: 105px;
+  width: 70px;
+  height: 70px;
   background-size: cover;
+}
+@media (min-width: 576px) {
+  .mainContent .mySwiper .swiper-wrapper .secondImage img {
+    width: 80px;
+    height: 80px;
+  }
+}
+@media (min-width: 768px) {
+  .mainContent .mySwiper .swiper-wrapper .secondImage img {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media (min-width: 992px) {
+  .mainContent .mySwiper .swiper-wrapper .secondImage img {
+    width: 105px;
+    height: 105px;
+  }
 }
 .mainContent .mySwiper .swiper-slide-thumb-active {
   overflow: hidden;

@@ -54,6 +54,7 @@
       font-family: "Poppins";
       font-size: 16px;
       opacity: 50%;
+      text-align: justify;
     }
 
     .button-Shop {
@@ -70,6 +71,7 @@
     width: 100%;
     .swiper-wrapper {
       .swiper-slide {
+        cursor: pointer;
         img {
           display: block;
           width: 100%;
@@ -83,9 +85,24 @@
 
         img {
           border-radius: 10px;
-          width: 105px;
-          height: 105px;
+          width: 70px;
+          height: 70px;
           background-size: cover;
+
+          @include media-breakpoint-up(sm) {
+            width: 80px;
+            height: 80px;
+          }
+
+          @include media-breakpoint-up(md) {
+            width: 100px;
+            height: 100px;
+          }
+
+          @include media-breakpoint-up(lg) {
+            width: 105px;
+            height: 105px;
+          }
         }
       }
     }
