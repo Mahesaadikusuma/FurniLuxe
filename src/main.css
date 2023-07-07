@@ -75,7 +75,12 @@ p {
   max-height: 24px;
 }
 .breadcumb .breadcrumb-item {
-  font-size: 18px;
+  font-size: 13px;
+}
+@media (min-width: 576px) {
+  .breadcumb .breadcrumb-item {
+    font-size: 14px;
+  }
 }
 .breadcumb .breadcrumb-item a {
   text-decoration: none;

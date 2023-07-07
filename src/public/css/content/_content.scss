@@ -1,3 +1,12 @@
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+
 .breadcumb {
   margin-top: 50px;
   .arrow {
@@ -15,7 +24,12 @@
   }
 
   .breadcrumb-item {
-    font-size: 18px;
+    font-size: 13px;
+
+    @include media-breakpoint-up(sm) {
+      font-size: 14px;
+    }
+
     a {
       text-decoration: none;
       color: #9f9f9f;
