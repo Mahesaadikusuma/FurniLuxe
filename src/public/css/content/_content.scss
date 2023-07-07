@@ -47,18 +47,19 @@ $grid-breakpoints: (
 }
 
 .mainContent {
-  margin-top: 100px;
+  margin-top: 50px;
 
   .heading {
+    margin-top: 50px;
     h1 {
       font-size: 25px;
-      font-weight: 600;
+      font-weight: bold;
       font-family: "Poppins";
       color: #000;
 
       @include media-breakpoint-up(sm) {
         font-size: 45px;
-        color: blue;
+        // color: blue;
       }
 
       @include media-breakpoint-up(lg) {
@@ -156,5 +157,123 @@ $grid-breakpoints: (
     img {
       border-radius: 20px;
     }
+  }
+
+  .cardHeader {
+    margin-top: 150px;
+    margin-bottom: 50vh;
+    .card {
+      // border: ;
+      .card-body {
+        .card-title {
+          font-size: 20px;
+          font-weight: bold;
+        }
+
+        span {
+          color: rgba(0, 0, 0, 0.5);
+          font-family: "Poppins";
+          font-size: 14px;
+          font-weight: 400;
+        }
+        .card-text {
+          margin-top: 20px;
+          margin-bottom: 20px;
+          font-size: 16px;
+          color: #000;
+          opacity: 0.6;
+        }
+
+        .price {
+          color: #20bf6b;
+          text-align: center;
+          font-family: "Poppins";
+          font-size: 18px;
+          font-weight: 600;
+        }
+
+        .btn-Buy {
+          background-color: #e58411;
+          color: #fff;
+          font-weight: 700;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  // Checkout
+  .checkout {
+    .Cbody {
+      margin-left: 50px;
+      h5 {
+        font-family: "Poppins";
+        font-size: 30px;
+        font-weight: 600;
+      }
+
+      p {
+        color: #20bf6b;
+
+        font-family: "Poppins";
+        font-size: 25px;
+
+        font-weight: 700;
+      }
+
+      .counter {
+        width: 150px;
+        display: flex;
+
+        input {
+          width: 50px;
+          border: 0;
+          line-height: 30px;
+          font-size: 20px;
+          text-align: center;
+        }
+
+        span {
+          display: block;
+          font-size: 25px;
+          padding: 0 10px;
+          cursor: pointer;
+          color: #0052cc;
+          user-select: none;
+        }
+      }
+    }
+  }
+
+  .alert {
+    margin-top: 200px;
+  }
+
+  .information {
+    th {
+      font-family: "Poppins";
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    td {
+      font-size: 18px;
+      color: #c2c2c2;
+    }
+
+    .price {
+      color: #20bf6b;
+      font-family: "Poppins";
+
+      font-weight: 700;
+    }
+
+    .total {
+      color: #e58411;
+      font-family: "Poppins";
+      font-weight: 800;
+    }
+
+    // Checkout end
   }
 }

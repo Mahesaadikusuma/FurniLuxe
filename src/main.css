@@ -31,8 +31,8 @@ p {
   color: #000;
   font-size: 18px;
   font-family: "Poppins";
-  font-style: normal;
-  opacity: 50%;
+  font-weight: 300;
+  opacity: 25%;
 }
 .navbar .navbar-nav .nav-item .nav-link.active {
   opacity: 100%;
@@ -97,18 +97,20 @@ p {
 }
 
 .mainContent {
-  margin-top: 100px;
+  margin-top: 50px;
+}
+.mainContent .heading {
+  margin-top: 50px;
 }
 .mainContent .heading h1 {
   font-size: 25px;
-  font-weight: 600;
+  font-weight: bold;
   font-family: "Poppins";
   color: #000;
 }
 @media (min-width: 576px) {
   .mainContent .heading h1 {
     font-size: 45px;
-    color: blue;
   }
 }
 @media (min-width: 992px) {
@@ -196,4 +198,95 @@ p {
 }
 .mainContent .thumbnail img {
   border-radius: 20px;
+}
+.mainContent .cardHeader {
+  margin-top: 150px;
+  margin-bottom: 50vh;
+}
+.mainContent .cardHeader .card .card-body .card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.mainContent .cardHeader .card .card-body span {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+}
+.mainContent .cardHeader .card .card-body .card-text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #000;
+  opacity: 0.6;
+}
+.mainContent .cardHeader .card .card-body .price {
+  color: #20bf6b;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 600;
+}
+.mainContent .cardHeader .card .card-body .btn-Buy {
+  background-color: #e58411;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+}
+.mainContent .checkout .Cbody {
+  margin-left: 50px;
+}
+.mainContent .checkout .Cbody h5 {
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 600;
+}
+.mainContent .checkout .Cbody p {
+  color: #20bf6b;
+  font-family: "Poppins";
+  font-size: 25px;
+  font-weight: 700;
+}
+.mainContent .checkout .Cbody .counter {
+  width: 150px;
+  display: flex;
+}
+.mainContent .checkout .Cbody .counter input {
+  width: 50px;
+  border: 0;
+  line-height: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+.mainContent .checkout .Cbody .counter span {
+  display: block;
+  font-size: 25px;
+  padding: 0 10px;
+  cursor: pointer;
+  color: #0052cc;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.mainContent .alert {
+  margin-top: 200px;
+}
+.mainContent .information th {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 700;
+}
+.mainContent .information td {
+  font-size: 18px;
+  color: #c2c2c2;
+}
+.mainContent .information .price {
+  color: #20bf6b;
+  font-family: "Poppins";
+  font-weight: 700;
+}
+.mainContent .information .total {
+  color: #e58411;
+  font-family: "Poppins";
+  font-weight: 800;
 }/*# sourceMappingURL=main.css.map */
