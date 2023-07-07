@@ -100,26 +100,47 @@ p {
   margin-top: 100px;
 }
 .mainContent .heading h1 {
-  font-size: 56px;
+  font-size: 25px;
   font-weight: 600;
   font-family: "Poppins";
   color: #000;
+}
+@media (min-width: 576px) {
+  .mainContent .heading h1 {
+    font-size: 45px;
+    color: blue;
+  }
+}
+@media (min-width: 992px) {
+  .mainContent .heading h1 {
+    font-size: 56px;
+  }
 }
 .mainContent .heading .price {
   margin-top: 25px;
   margin-bottom: 20px;
   color: #20bf6b;
   font-family: "Poppins";
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 22px;
+  font-weight: bold;
+}
+@media (min-width: 992px) {
+  .mainContent .heading .price {
+    font-size: 24px;
+  }
 }
 .mainContent .heading .describe {
-  font-weight: 500;
+  font-weight: 400;
   color: #000;
   font-family: "Poppins";
-  font-size: 16px;
+  font-size: 15px;
   opacity: 50%;
   text-align: justify;
+}
+@media (min-width: 992px) {
+  .mainContent .heading .describe {
+    font-size: 16px;
+  }
 }
 .mainContent .heading .button-Shop .btn-shop {
   background-color: #e58411;
