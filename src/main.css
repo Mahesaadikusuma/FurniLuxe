@@ -75,11 +75,16 @@ p {
   max-height: 24px;
 }
 .breadcumb .breadcrumb-item {
-  font-size: 13px;
+  font-size: 12px;
 }
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .breadcumb .breadcrumb-item {
     font-size: 14px;
+  }
+}
+@media (min-width: 992px) {
+  .breadcumb .breadcrumb-item {
+    font-size: 18px;
   }
 }
 .breadcumb .breadcrumb-item a {
