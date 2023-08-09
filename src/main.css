@@ -18,6 +18,151 @@ p {
   font-size: 18px;
 }
 
+.navbar.navbarNo {
+  background-color: #666666;
+}
+@media (min-width: 992px) {
+  .navbar.navbarNo {
+    background-color: transparent;
+  }
+}
+.navbar.navbarScroll {
+  background-color: #666666;
+}
+@media (min-width: 992px) {
+  .navbar.navbarScroll {
+    background-color: #666666;
+  }
+}
+.navbar .navbar-brand.furniluxe {
+  color: #fff;
+}
+.navbar .navbar-nav .nav-item .nav-link.home {
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+}
+.navbar .navbar-nav .nav-item .nav-link.home .active {
+  font-weight: 500;
+}
+.navbar .button .btn-registerHome {
+  color: #fff;
+}
+.navbar .button .btn-registerHome:hover {
+  border: 1px solid #fff;
+}
+
+header {
+  margin-top: -80px;
+  background-image: url("/src/public/img/hero.jpg");
+  color: #fff;
+  width: 100%;
+  height: 1300px;
+  background-size: cover;
+  overflow: hidden;
+}
+header h1 {
+  font-size: 27px;
+  font-weight: bold;
+  font-family: "Poppins";
+  margin-top: 350px;
+}
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 35px;
+  }
+}
+@media (min-width: 992px) {
+  header h1 {
+    font-size: 50px;
+  }
+}
+header p {
+  font-size: 16px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+@media (min-width: 768px) {
+  header p {
+    font-size: 18px;
+  }
+}
+
+.features .choosing {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+.features .card {
+  border: 0;
+}
+.features .card .card-body .card-title {
+  font-size: 24px;
+  color: #1e1e1e;
+  font-weight: bold;
+  font-family: "Posppins";
+  margin-bottom: 20px;
+}
+.features .card .card-body .card-text {
+  color: #1e1e1e;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Montserrat";
+}
+.features .card .card-body .more {
+  text-decoration: none;
+  color: #e58411;
+  font-size: 14px;
+}
+
+.category h2 {
+  margin-bottom: 80px;
+}
+.category .swiper-slide:hover {
+  box-shadow: 11px 23px 43px 0px rgba(135, 135, 135, 0.75);
+  -webkit-box-shadow: 11px 23px 43px 0px rgba(135, 135, 135, 0.75);
+  -moz-box-shadow: 11px 23px 43px 0px rgba(135, 135, 135, 0.75);
+}
+.category .card .card-body h5 {
+  font-family: Montserrat;
+  font-size: 25px;
+}
+
+.product h2 {
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+.product .card .card-body .card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.product .card .card-body span {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+}
+.product .card .card-body .card-text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #000;
+  opacity: 0.6;
+}
+.product .card .card-body .price {
+  color: #20bf6b;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 600;
+}
+.product .card .card-body .btn-Buy {
+  background-color: #e58411;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+}
+
 .navbar {
   border: none;
 }
@@ -26,6 +171,7 @@ p {
   font-family: "Poppins", serif;
   font-style: normal;
   font-weight: 700;
+  color: #000;
 }
 .navbar .navbar-nav .nav-item .nav-link {
   color: #000;
@@ -297,4 +443,7 @@ p {
   color: #e58411;
   font-family: "Poppins";
   font-weight: 800;
+}
+.mainContent .success {
+  margin-top: 100px;
 }/*# sourceMappingURL=main.css.map */

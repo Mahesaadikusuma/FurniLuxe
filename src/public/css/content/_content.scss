@@ -7,6 +7,9 @@ $grid-breakpoints: (
   xxl: 1400px,
 );
 
+@import "../navbar/navbar";
+// navbar end
+
 .breadcumb {
   margin-top: 50px;
   .arrow {
@@ -282,5 +285,9 @@ $grid-breakpoints: (
     }
 
     // Checkout end
+  }
+
+  .success {
+    margin-top: 100px;
   }
 }
