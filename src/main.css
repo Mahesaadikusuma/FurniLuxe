@@ -132,6 +132,9 @@ header p {
   margin-top: 100px;
   margin-bottom: 80px;
 }
+.product .mySwiper2 {
+  margin: 0 15px;
+}
 .product .card .card-body .card-title {
   font-size: 20px;
   font-weight: bold;
@@ -163,6 +166,29 @@ header p {
   font-size: 16px;
 }
 
+.hero {
+  margin-top: 120px;
+}
+.hero .hero-heading {
+  margin-top: 100px;
+}
+.hero .hero-heading h3 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Poppins";
+}
+.hero .hero-heading p {
+  margin: 30px 0;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: justify;
+}
+.hero .hero-heading a {
+  color: #16147d;
+  font-size: 20px;
+}
+
 .navbar {
   border: none;
 }
@@ -177,8 +203,8 @@ header p {
   color: #000;
   font-size: 18px;
   font-family: "Poppins";
-  font-weight: 300;
-  opacity: 25%;
+  font-weight: 500;
+  opacity: 50%;
 }
 .navbar .navbar-nav .nav-item .nav-link.active {
   opacity: 100%;

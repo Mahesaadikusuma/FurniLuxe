@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>FurniLuxe</title>
+    <title>Category FurniLuxe</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
 
     <!-- SWIPPER -->
@@ -13,138 +13,84 @@
   </head>
   <body class="" style="height: 1000vh">
     <!-- Navbar start -->
-    <nav class="navbar navbar-expand-lg navbarNo p-3 fixed-top" id="navbar">
-      <div class="container">
-        <a class="navbar-brand furniluxe" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <a class="nav-link home active" aria-current="page" href="#">Home</a>
-            </li>
+    <section>
+      <nav class="navbar navbar-expand-lg bg-body fixed-top text-body shadow p-4">
+        <div class="container">
+          <a class="navbar-brand" href="#">FurniLuxe</a>
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
 
-            <li class="nav-item">
-              <a class="nav-link home" href="Detail.html">Product</a>
-            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Product</a>
+              </li>
 
-            <li class="nav-item">
-              <a class="nav-link home" href="#">Category</a>
-            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Collections</a>
+              </li>
 
-            <li class="nav-item">
-              <a class="nav-link home" href="#">About</a>
-            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
 
-            <li class="nav-item">
-              <a class="nav-link home" href="#">Testimonial</a>
-            </li>
-          </ul>
-
-          <div class="button">
-            <li class="d-flex">
-              <a href="#" class="btn btn-registerHome me-lg-2 px-4 py-2 ms-2 order-2 order-lg-1">Register</a>
-              <a href="#" class="btn btn-login px-4 py-2 order-1 gap-2 order-lg-2">Login</a>
-            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <div class="button d-flex gap-2">
+              <a href="#" class="btn-register px-4 py-2 order-2 order-lg-1">Register</a>
+              <a href="#" class="btn btn-login px-4 py-2 order-1 order-lg-2">Login</a>
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </section>
 
     <!-- navbar end -->
 
-    <!-- header start -->
-    <section class="text-center">
-      <header>
-        <h1 class="text-center">
-          Elevate the look of your interior with <br />
-          captivating minimalistic touches and <br />
-          modern style
-        </h1>
-
-        <p class="text-center">
-          you can effortlessly and quickly transform your room <br />
-          into a minimalist and modern space, creating a fresh <br />
-          and stylish atmosphere
-        </p>
-
-        <a href="#" class="btn btn btn-outline-light px-5 py-3 rounded-pill">Shop Now</a>
-      </header>
-    </section>
-    <!-- header end -->
-
-    <!-- Featuree -->
-    <section class="my-5 features">
+    <!-- carousel -->
+    <section style="margin-top: 150px; margin-bottom: 100px">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-xl-3">
-            <div class="">
-              <h5 class="choosing ms-2">
-                Why <br />
-                Choosing
-              </h5>
-            </div>
-          </div>
-
-          <div class="col-12 col-xl-3">
-            <div class="card p-2">
-              <div class="card-body">
-                <h5 class="card-title">FurniLuxe features</h5>
-
-                <p class="card-text lh-base">The advantage of hiring a workspace with us is that givees you comfortable service and all-around facilities.</p>
-
-                <a href="#" class="card-link more lh-lg">
-                  More Info
-
-                  <img src="./src/public/img/arrow.svg" alt="More Arrow " />
-                </a>
+          <div class="col-12">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./src/public/img/carousel-1.png" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./src/public/img/carousel-2.png" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./src/public/img/carousel-3.png" class="d-block w-100" alt="..." />
+                </div>
               </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-xl-3">
-            <div class="card p-2">
-              <div class="card-body">
-                <h5 class="card-title">Affordable Price</h5>
-
-                <p class="card-text lh-base">You can get a workspace of the highst quality at an affordable price and still enjoy the facilities that are oly here.</p>
-
-                <a href="#" class="card-link more lh-lg">
-                  More Info
-
-                  <img src="./src/public/img/arrow.svg" alt="More Arrow " />
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-xl-3">
-            <div class="card p-2">
-              <div class="card-body">
-                <h5 class="card-title">Many Choices</h5>
-
-                <p class="card-text lh-base">We provide many unique work space choices so that you can choose the workspace to your liking.</p>
-
-                <a href="#" class="card-link more lh-lg">
-                  More Info
-
-                  <img src="./src/public/img/arrow.svg" alt="More Arrow " />
-                </a>
-              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- Featuree end -->
+    <!-- carousel end -->
 
     <!-- Category -->
     <section class="category">
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h2 class="text-center">Category</h2>
+            <h2 class="text-start">Category Product</h2>
           </div>
         </div>
 
@@ -219,7 +165,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h2 class="text-center">Product</h2>
+            <h2 class="text-start">All Product</h2>
           </div>
 
           <div class="row">
@@ -456,7 +402,7 @@
             </div>
           </div>
 
-          <div class="row">
+          <!-- <div class="row">
             <div class="d-flex justify-content-center mt-5 align-items-center">
               <a href="#" class="btn btn-outline-primary px-4 py-2 rounded-pill text-decoration-none">
                 load More
@@ -464,41 +410,11 @@
                 <img src="./src/public/icon/arrow-load.svg" alt="Load More Arrow" />
               </a>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
     <!-- product end -->
-
-    <section class="hero">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-lg-6 d-flex order-2">
-            <div class="hero-heading">
-              <h3>
-                Exquisite Materials for <br />
-                Crafting Exceptional <br />
-                Furniture
-              </h3>
-              <p class="lh-base">
-                Explore our carefully selected materials known for their durability, strength, and exquisite beauty. With these materials, you can create long-lasting, elegant, and highly valuable furniture. Explore our collection of
-                premium materials and start crafting impressive furniture today
-              </p>
-
-              <a href="#" class="text-decoration-none more d-flex align-items-center">
-                More
-                <img src="./src/public/icon/arrow-load.svg" class="ms-3" alt="" />
-              </a>
-            </div>
-          </div>
-          <div class="col-12 col-lg-6 d-flex order-1">
-            <div class="mt-5">
-              <img src="./src/public/img/hero-2.png" class="d-block img-fluid" alt="hero" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
@@ -509,6 +425,7 @@
     <script>
       var swiper = new Swiper(".mySwiper", {
         slidesPerView: 1,
+
         spaceBetween: 10,
         // pagination: {
         //   el: ".swiper-pagination",
@@ -546,6 +463,7 @@
     <script>
       var swiper = new Swiper(".mySwiper2", {
         slidesPerView: 1,
+
         spaceBetween: 10,
         // pagination: {
         //   el: ".swiper-pagination",
